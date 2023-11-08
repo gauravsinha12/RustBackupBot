@@ -37,3 +37,24 @@ fn perform_backup() {
     let dest_dir = "backup_directory/";
     // ... rest of the function ...
 }
+
+```
+### Running
+
+- cargo build --release
+  
+Compile the project with Cargo to create an executable:
+This will compile the source code and place the executable in the target/release directory.
+
+### Run the Backup Tool:
+
+-./target/release/rust_backup_bot
+
+ Or you can run it using Cargo:
+
+ cargo run --release
+ Verify the Backup:
+ Check the contents of your backup directory to ensure that the backup was 
+ successful.
+
+
