@@ -1,6 +1,6 @@
 # Rust Backup Bot
 
-![Rust Backup/Logo](I will.png)
+![RustBackup/Logo](I will.png)
 
 `rust_backup_bot` is a simple backup automation tool written in Rust. It's designed to quickly and safely back up important data by creating a backup directory and copying specified files or directories to that location.
 
