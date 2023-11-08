@@ -21,3 +21,19 @@ Clone the repository to your local machine:
 ```sh
 git clone https://github.com/yourusername/rust_backup_bot.git
 cd rust_backup_bot
+## Running the Backup Tool
+
+After you have built the project, you can run the backup tool using the following steps.
+
+### Step 1: Configuration
+
+Before running the tool, ensure that the `perform_backup` function in `main.rs` has the correct paths set for your source data and backup directory:
+
+```rust
+fn perform_backup() {
+    // Replace 'source_data/' with the path to the data you want to back up.
+    // Replace 'backup_directory/' with the path to where you want your backup stored.
+    let src_dir = "source_data/";
+    let dest_dir = "backup_directory/";
+    // ... rest of the function ...
+}
